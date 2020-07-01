@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="#FFFFFF">
+
+
+    <ImageView
+        android:id="@+id/login_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+        android:layout_marginStart="100dp"/>
+
+    <ImageView
+        android:id="@+id/login_bg"
+        android:layout_below="@id/login_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/monsterbg"
+        android:layout_marginStart="100dp"/>
+
+    <Button
+        android:id="@+id/login_signInBtn"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_bg"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_border"
+        android:text="@string/sign_in_login"
+        android:elevation="20dp"
+        android:textColor="#FFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/login_signUp"
+        android:elevation="20dp"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_signInBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_border"
+        android:text="@string/sign_up_login"
+        android:textColor="#FFF"
+        android:textSize="20sp" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/facelog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_signUp"
+        android:elevation="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+
+        />
+
+
+
+</RelativeLayout>

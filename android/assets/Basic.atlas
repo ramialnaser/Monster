@@ -1,0 +1,104 @@
+
+Basic.png
+size: 2048,128
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+B_downLeft
+  rotate: false
+  xy: 1654, 36
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+B_downRight
+  rotate: false
+  xy: 1588, 36
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+B_upLeft
+  rotate: false
+  xy: 1522, 36
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+B_upRight
+  rotate: false
+  xy: 1390, 36
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+aboutButton
+  rotate: false
+  xy: 2, 36
+  size: 256, 64
+  orig: 256, 64
+  offset: 0, 0
+  index: -1
+ball
+  rotate: false
+  xy: 1786, 36
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+block
+  rotate: false
+  xy: 1456, 36
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+blockEnemy
+  rotate: false
+  xy: 1720, 36
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+exitButton
+  rotate: false
+  xy: 1164, 36
+  size: 224, 64
+  orig: 224, 64
+  offset: 0, 0
+  index: -1
+howTobutton
+  rotate: false
+  xy: 486, 36
+  size: 224, 64
+  orig: 224, 64
+  offset: 0, 0
+  index: -1
+leaderButton
+  rotate: false
+  xy: 938, 36
+  size: 224, 64
+  orig: 224, 64
+  offset: 0, 0
+  index: -1
+levelButton
+  rotate: false
+  xy: 712, 36
+  size: 224, 64
+  orig: 224, 64
+  offset: 0, 0
+  index: -1
+submitButton
+  rotate: false
+  xy: 2, 2
+  size: 112, 32
+  orig: 112, 32
+  offset: 0, 0
+  index: -1
+whoWeAre
+  rotate: false
+  xy: 260, 36
+  size: 224, 64
+  orig: 224, 64
+  offset: 0, 0
+  index: -1

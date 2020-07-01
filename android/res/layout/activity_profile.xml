@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    >
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/prof_image"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/defaul_av_imag" />
+
+    <TextView
+        android:id="@+id/prof_userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prof_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/user_name"
+        android:textColor="#fff"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/prof_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prof_userName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:text="@string/profile_status"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/prof_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prof_status"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="100dp"
+        android:textColor="#fff"
+        android:text="@string/score"
+        android:textSize="40sp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/prof_scoreTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prof_status"
+        android:layout_toEndOf="@+id/prof_score"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:textColor="#fff"
+        android:text="@string/_0"
+        android:textSize="40sp"
+        android:textStyle="italic" />
+
+
+
+</RelativeLayout>

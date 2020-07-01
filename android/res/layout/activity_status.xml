@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+
+    <include layout="@layout/app_toolbar"
+        android:id="@+id/status_toolbar"
+        />
+    <TextView
+        android:layout_below="@+id/status_toolbar"
+        android:id="@+id/status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/pick_a_new_status"
+        android:textSize="40dp"
+        android:textColor="#000"
+        android:textStyle="italic" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/status_newStatus"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@id/status_text">
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/status_status"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <Button
+        android:id="@+id/status_newStatusBtn"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/status_newStatus"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_border"
+        android:paddingStart="10dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="5dp"
+        android:text="@string/save"
+        android:textColor="#fff" />
+
+</RelativeLayout>

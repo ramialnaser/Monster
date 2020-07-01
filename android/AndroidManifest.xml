@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mygdx.game">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".MonsterOffline"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/GdxTheme">
+        <activity
+            android:name="com.mygdx.game.AndroidLauncher"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mygdx.game.GameActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity
+            android:name="com.mygdx.game.ProfileSettingsActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity
+            android:name="com.mygdx.game.StatusActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize"
+            android:label="@string/app_name"
+            android:parentActivityName=".ProfileSettingsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity
+            android:name="com.mygdx.game.AdminActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity
+            android:name="com.mygdx.game.ChangeScoreActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize"
+            android:label="@string/app_name"
+            android:parentActivityName=".AdminActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity
+            android:name="com.mygdx.game.SignInActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize"
+            android:label="@string/app_name"
+            android:parentActivityName=".LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity
+            android:name="com.mygdx.game.SignUpActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize"
+            android:label="@string/app_name"
+            android:parentActivityName=".LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity
+            android:name="com.mygdx.game.ChatActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity
+            android:name="com.mygdx.game.ScreenTimeActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity
+            android:name="com.mygdx.game.ProfileActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize"
+            android:label="@string/app_name"
+            android:parentActivityName=".ChatActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity
+            android:name="com.mygdx.game.MessageActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize"
+            android:label="@string/app_name"
+            android:parentActivityName=".ChatActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity
+            android:name="com.mygdx.game.HowToPlayActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity
+            android:name="com.mygdx.game.LoginActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity
+            android:name="com.mygdx.game.ForgetPassword"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".LoginActivity"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity
+            android:name="com.mygdx.game.ShareFB"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.mygdx.game.HighScoresActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"></activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider1225466497602846"
+            android:exported="true" />
+    </application>
+
+</manifest>
+

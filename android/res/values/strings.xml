@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Monsters</string>
+    <string name="facebook_app_id">1225466497602846</string>
+    <string name="fb_login_protocol_scheme">fb1225466497602846</string>
+    <string name="startButton">Start</string>
+    <string name="chatButton">Chat</string>
+    <string name="howToPlayButton">How To Play</string>
+    <string name="aboutUsButton">About Us</string>
+    <string name="exitButton">Exit</string>
+    <string name="sign_out">Sign out</string>
+    <string name="sign_in_to_your_account">Sign In To Your Account</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="create_an_account">Create An Account</string>
+    <string name="sign_up">Sign up</string>
+    <string name="create">CREATE</string>
+    <string name="user_name">User Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="profile_user_name">User Name</string>
+    <string name="profile_status">Hi there, I\'m using Monsters chat app!</string>
+    <string name="change_status">CHANGE STATUS</string>
+    <string name="profile">Profile</string>
+    <string name="pick_a_new_status">Pick a new status</string>
+    <string name="save">SAVE</string>
+    <string name="status_status">Status</string>
+    <string name="hint_user_name">User Name</string>
+    <string name="users">Users</string>
+    <string name="add_friend">ADD FRIEND</string>
+    <string name="decline_request">DECLINE REQUEST</string>
+    <string name="write_a_message">Write a message...</string>
+    <string name="score">Score:</string>
+    <string name="_0">0</string>
+    <string name="highscores">Hishgscores</string>
+    <string name="sign_up_login">Sign up</string>
+    <string name="sign_in_login">Sign in</string>
+    <string name="score_change">Score</string>
+    <string name="highscores_txt">HIGHSCORES</string>
+    <string name="forget_password">Forget password</string>
+    <string name="screen_time">Screen Time</string>
+
+
+</resources>

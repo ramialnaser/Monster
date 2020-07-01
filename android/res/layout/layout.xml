@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".AndroidLauncher">
+
+    <Button
+        android:id="@+id/startGame"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/button_border"
+        android:elevation="5dp"
+        android:stateListAnimator="@null"
+        android:text="@string/startButton"
+        android:textColor="#ffff"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:translationZ="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/chat"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/startGame"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_border"
+        android:elevation="5dp"
+        android:stateListAnimator="@null"
+        android:text="@string/chatButton"
+        android:textColor="#ffff"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:translationZ="5dp" />
+
+    <Button
+        android:id="@+id/howToPlay"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/chat"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_border"
+        android:elevation="5dp"
+        android:padding="5dp"
+        android:stateListAnimator="@null"
+        android:text="@string/howToPlayButton"
+        android:textColor="#ffff"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:translationZ="5dp" />
+
+    <Button
+        android:id="@+id/signOutBtn"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/highscoresButton"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_border"
+        android:elevation="5dp"
+        android:stateListAnimator="@null"
+        android:text="@string/sign_out"
+        android:textColor="#ffff"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:translationZ="5dp" />
+
+    <Button
+        android:id="@+id/highscoresButton"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/howToPlay"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_border"
+        android:elevation="5dp"
+        android:padding="5dp"
+        android:stateListAnimator="@null"
+        android:text="@string/highscores_txt"
+        android:textColor="#ffff"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:translationZ="5dp" />
+
+
+    <Button
+        android:id="@+id/sharebtn"
+        style="@style/com_facebook_button_share"
+        android:layout_width="120dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/highscoresButton"
+        android:layout_toEndOf="@id/signOutBtn" />
+    <Button
+        android:id="@+id/screenTimeButton"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_above="@id/sharebtn"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/signOutBtn"
+        android:background="@drawable/button_border"
+        android:elevation="5dp"
+        android:padding="5dp"
+        android:stateListAnimator="@null"
+        android:text="@string/screen_time"
+        android:textColor="#ffff"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:translationZ="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/mainmenu_timer"
+        android:layout_height="wrap_content"
+        android:text="00:00:00:00"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="10dp"
+        />
+
+</RelativeLayout>
